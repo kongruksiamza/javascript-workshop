@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    overflow: hidden;
+    margin:0;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #333;  
+}
+
+.content{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.content.left{
+    left: 0;
+    background-image: url("image/Content1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content.right{
+    right:0;
+    background-image: url("image/Content2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Overlay */
+
+.content::before{
+    content:'';
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+h1{
+    font-size: 4rem;
+    color: #fff;
+    top:50%;
+    left:50%;
+    position: absolute;
+    white-space: nowrap;
+    transform: translateX(-50%);
+}
+
+/* Button */
+.btn{
+    position: absolute;
+    left:50%;
+    top:70%;
+    transform: translateX(-50%);
+    color:#fff;
+    text-decoration: none;
+    padding: 1.5rem;
+    border:#fff solid 0.2rem;
+    font-size: 1.2rem;
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.content.left .btn:hover{
+    background-color: orangered;
+}
+
+.content.right .btn:hover{
+    background-color: green;
+}
+
+/* กำหนดพื้นที่ */
+.hover-left .left{
+    width:65%
+}
+.hover-left .right{
+    width:35%
+}
+
+.hover-right .right{
+    width:65%
+}
+.hover-right .left{
+    width:35%
+}
+
+/* Effect */
+.content.left,.content.right,.content.left::before,.content.right::before{
+    transition: all 1s ease-in-out;
+}

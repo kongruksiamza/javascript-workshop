@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>โปรแกรมตารางนัดหมาย</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- ไปเที่ยวทะเล  02/11/2563 -->
+<body>
+    <div class="container">
+        <div class="input-container" id="input-container">
+            <h1>ตารางนัดหมาย</h1>
+            <form class="form" id="countDownForm">
+                <label for="">หัวข้อ</label>
+                <input type="text" class="title" id="title">
+                <label for="">วัน/เดือน/ปี</label>
+                <input type="date" class="date-picker" id="date-picker">
+                <button type="submit">บันทึก</button>
+            </form>
+        </div>
+        <div class="countdown" id="countdown"  hidden>
+            <h1 id="countdown-title"></h1>
+            <ul>
+                <li><span></span>วัน</li>
+                <li><span></span>ชั่วโมง</li>
+                <li><span></span>นาที</li>
+                <li><span></span>วินาที</li>
+            </ul>
+            <button id="countdown-button">ยกเลิก</button>
+        </div>
+        <div class="complete" id="complete" hidden>
+            <h1 class="complete-title">แจ้งเตือน</h1>
+            <h1 class="complete-info" id="complete-info"></h1> 
+            <button id="complete-button">สร้างรายการใหม่</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

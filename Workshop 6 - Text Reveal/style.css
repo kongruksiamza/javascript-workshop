@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 700px;
+    max-width: 100%;
+    margin:0 auto;
+    padding: 10px;
+}
+img{
+    width: 700px;
+    max-width: 100%;
+}
+.text{
+    opacity: 0;
+    transform: translateY(15px);
+    transition: 0.5s all ease;
+}
+.text.show-reveal{
+    opacity: 1;
+    transform: translateY(0px);
+}

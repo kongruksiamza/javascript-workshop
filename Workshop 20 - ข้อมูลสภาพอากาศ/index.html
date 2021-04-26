@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Weather API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Weather API</h1>
+            <form id="form">
+                <input type="text" placeholder="search city name" id="search">
+                <button type="submit">Search</button>
+            </form>
+        </header>
+        <section>
+            <div id="location">
+                <h1 id="city">Bangkok</h1>
+                <p id="state">TH</p>
+            </div>
+            <div id="card">
+                <div id="weather">
+                    <h1>35</h1>
+                    <small>max : 37, min : 21</small>
+                </div>
+                <div id="info">
+                    <div id="status">Hot</div>
+                    <div id="humidity">100</div>
+                    <div id="wind">4.0</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+const questionData = [
+	{
+	  question:"1.ข้อใดไม่ใช่ระบบปฏิบัติการ",
+      a:"ระบบปฏิบัติการดอส",
+      b:"ไมโครซอฟท์เวิร์ด",
+      c:"ไมโครซอฟต์วินโดวส์",
+      d:"ระบบปฏิบัติการแอนดรอยด์",
+      correct:"b"
+	},
+    {
+        question:"2.ข้อใดคือโปรแกรม Web Browser",
+        a:"Google Chrome",
+        b:"Keyboard",
+        c:"Mouse",
+        d:"Monitor",
+        correct:"a"
+    },
+    {
+        question:"3.ข้อใดคือฮา์ดแวร์",
+        a:"Keyboard",
+        b:"Mouse",
+        c:"Monitor",
+        d:"ถูกทุกข้อ",
+        correct:"d"
+    }
+]

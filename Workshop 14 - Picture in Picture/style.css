@@ -1,0 +1,26 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(37, 37, 37);
+}
+.button-container{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.7);
+    display: flex;
+    margin-right: 5px;
+}
+button{
+    cursor: pointer;
+    outline: none;
+    width: 200px;
+    height: 75px;
+    font-size: 25px;
+}
