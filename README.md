@@ -4,7 +4,7 @@
 - [JavaScript](https://youtu.be/AbjY-ajKgSI)
 - [JavaScript ES6](https://youtu.be/ReGM0zubxfI)
 
-## โค้ดประกอบการสอน
+## โค้ดประกอบการสอน (Source Code)
 | ลำดับที่ |                   หัวข้อ                   |
 |:----:|:------------------------------------------:|
 |   1  | [โปรแกรมแปลงสกุลเงิน](https://github.com/kongruksiamza/javascript-workshop/tree/main/Workshop%201%20-%20%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B8%87%E0%B8%AA%E0%B8%81%E0%B8%B8%E0%B8%A5%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99) |
