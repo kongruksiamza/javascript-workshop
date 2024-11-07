@@ -38,13 +38,6 @@
 |  29  | [Content Loading](https://github.com/kongruksiamza/javascript-workshop/tree/main/Workshop%2029%20-%20Content%20Loading) |[Live Preview](https://codepen.io/kongruksiamstudio/full/ExBywGZ)|
 |  30  | [Review Content](https://github.com/kongruksiamza/javascript-workshop/tree/main/Workshop%2030%20-%20Review%20Content) |-|
 
-## ☕ ช่องทางการสนับสนุน
-- [🎓 คอร์สเรียนบน Udemy](https://github.com/kongruksiamza/udemy-course)
-- [🛒 ซื้อของผ่าน Shopee](https://shope.ee/3plB9kVnPd)
-
-## 💓 ช่อง Youtube ในเครือของเรา
-- [KongRuksiam Official](https://www.youtube.com/@KongRuksiamOfficial)
-- [KongRuksiam Tutorial](https://www.youtube.com/@KongRuksiamTutorial)
 
 ## 📢 ติดตามข่าวสารอื่นๆของเราได้ที่
 - [Facebook](https://www.facebook.com/KongRuksiamTutorial)
