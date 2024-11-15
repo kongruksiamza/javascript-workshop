@@ -38,7 +38,10 @@
 |  29  | [Content Loading](https://github.com/kongruksiamza/javascript-workshop/tree/main/Workshop%2029%20-%20Content%20Loading) |[Live Preview](https://codepen.io/kongruksiamstudio/full/ExBywGZ)|
 |  30  | [Review Content](https://github.com/kongruksiamza/javascript-workshop/tree/main/Workshop%2030%20-%20Review%20Content) |-|
 
-
+## 🚀 Guideline & Documents
+- แนวทางการเรียนรู้การพัฒนาเว็บแอพพลิเคชั่น (Web Development) [อ่านบทความ](https://github.com/kongruksiamza/web-guideline)
+- เอกสารสอนเขียนโปรแกรมฟรี (.pdf) [ดาวน์โหลด](https://github.com/kongruksiamza/ebook-for-education)
+  
 ## 📢 ติดตามข่าวสารอื่นๆของเราได้ที่
 <div id="badges">
   <a href="https://www.facebook.com/KongRuksiamTutorial" target="_blank">
